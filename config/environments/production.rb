@@ -80,4 +80,9 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # Manual setup for Devise
+  # Ensure you have defined default url options in your environments files. Here
+  # is an example of default_url_options appropriate for a development environment
+  # config.action_mailer.default_url_options = { host: 'localhost:3000' }
 end

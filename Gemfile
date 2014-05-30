@@ -49,3 +49,5 @@ gem 'guard-livereload', group: :development
 # Use Capybara for integration tests
 gem 'capybara', group: [:development, :test]
 
+# Use Devise for authentication
+gem 'devise'
