@@ -12,4 +12,11 @@ describe Category do
     expect(c).to be_invalid
   end
 
+  it 'is invalid without a user' do
+  	pending
+  	# need to create user factory
+    #c = FactoryGirl.build(:category, {user_id: nil}
+    #expect(c).to be_invalid
+  end
+
 end
