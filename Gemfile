@@ -44,5 +44,5 @@ gem 'rspec-rails', group: [:development, :test]
 # Use guard to run tests automatically
 gem 'guard', group: :development
 gem 'guard-rspec', group: :development
-gem 'guard-livereaload', group: :development
+gem 'guard-livereload', group: :development
 
