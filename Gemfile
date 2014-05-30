@@ -46,3 +46,6 @@ gem 'guard', group: :development
 gem 'guard-rspec', group: :development
 gem 'guard-livereload', group: :development
 
+# Use Capybara for integration tests
+gem 'capybara', group: [:development, :test]
+
