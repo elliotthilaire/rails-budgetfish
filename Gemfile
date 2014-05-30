@@ -41,6 +41,9 @@ gem 'spring',        group: :development
 # Use rspec
 gem 'rspec-rails', group: [:development, :test]
 
+# Use Factory girl
+gem 'factory_girl_rails', group: [:development, :test]
+
 # Use guard to run tests automatically
 gem 'guard', group: :development
 gem 'guard-rspec', group: :development
@@ -51,3 +54,4 @@ gem 'capybara', group: [:development, :test]
 
 # Use Devise for authentication
 gem 'devise'
+
