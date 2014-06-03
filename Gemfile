@@ -44,6 +44,9 @@ gem 'rspec-rails', group: [:development, :test]
 # Use Factory girl
 gem 'factory_girl_rails', group: [:development, :test]
 
+# Use Faker
+gem 'faker', group: [:development, :test]
+
 # Use guard to run tests automatically
 gem 'guard', group: :development
 gem 'guard-rspec', group: :development

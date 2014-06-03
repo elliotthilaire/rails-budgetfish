@@ -3,7 +3,7 @@ require 'spec_helper'
 describe Category do
   
   it 'has a valid factory' do
-    c = FactoryGirl.build(:category)
+    c = FactoryGirl.create(:category)
     expect(c).to be_valid
   end
 
@@ -13,10 +13,8 @@ describe Category do
   end
 
   it 'is invalid without a user' do
-  	pending
-  	# need to create user factory
-    #c = FactoryGirl.build(:category, {user_id: nil}
-    #expect(c).to be_invalid
+    c = FactoryGirl.build(:category, {user_id: nil})
+    expect(c).to be_invalid
   end
 
 end

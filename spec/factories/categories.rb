@@ -1,8 +1,12 @@
 # Read about factories at https://github.com/thoughtbot/factory_girl
 
-FactoryGirl.define do
-  factory :category do
-    name "MyString"
-    user_id 1
-  end
-end
+#FactoryGirl.define do
+  
+#  sequence(:name) { |n| "Category #{n}" }
+
+#  factory :category do
+#    name
+#    #user User.first
+#  end
+#
+#end
