@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :accounts
+
   resources :categories
 
   devise_for :users
