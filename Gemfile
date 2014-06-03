@@ -38,8 +38,9 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-# Use rspec
+# Use rspec and fuubar formatter
 gem 'rspec-rails', group: [:development, :test]
+gem 'fuubar', group: :development
 
 # Use Factory girl
 gem 'factory_girl_rails', group: [:development, :test]
@@ -57,4 +58,9 @@ gem 'capybara', group: [:development, :test]
 
 # Use Devise for authentication
 gem 'devise'
+
+# User Database Cleaner. This resets the database between tests and avoids
+# problems with unique names.
+gem 'database_cleaner', group: :test
+
 

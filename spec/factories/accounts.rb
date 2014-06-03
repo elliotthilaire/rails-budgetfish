@@ -2,10 +2,10 @@
 
 FactoryGirl.define do
 
-  sequence(:category_name) { |n| "Category #{n}" }
+  sequence(:account_name) { |n| "Account #{n}" }
 
-  factory :category do
-    name { generate(:category_name) }
+  factory :account do
+    name { FactoryGirl.generate(:account_name) }
     #user { build_stubbed :user }
     user { FactoryGirl.create(:user) }
   end
