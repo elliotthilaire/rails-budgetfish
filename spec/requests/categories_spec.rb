@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'login_helper'
 
 describe "Categories" do
   describe "GET /categories" do
