@@ -52,6 +52,7 @@ gem 'faker', group: [:development, :test]
 gem 'guard', group: :development
 gem 'guard-rspec', group: :development
 gem 'guard-livereload', group: :development
+gem 'ruby_gntp', group: :development
 
 # Use Capybara for integration tests
 gem 'capybara', group: [:development, :test]
