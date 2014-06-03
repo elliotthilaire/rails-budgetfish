@@ -1,0 +1,23 @@
+<h1>Expenses Report</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Total Expenses</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @categories.each do |category| %>
+      <tr>
+        <td><%= category.name %></td>
+        <td><%= category.expenses.sum(:amount) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Expenses', expenses_path %>

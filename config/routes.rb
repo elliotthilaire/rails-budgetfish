@@ -10,6 +10,8 @@ Rails.application.routes.draw do
 
   get 'welcome' => 'welcome#index'
 
+  get 'expenses_report' => 'expenses_report#index'
+
   root 'expenses#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
