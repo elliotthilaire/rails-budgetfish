@@ -4,7 +4,7 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-  after_create :create_sample_accounts_categories
+  after_create :create_accounts, :create_categories
 
   has_many :categories
   has_many :accounts
@@ -12,10 +12,17 @@ class User < ActiveRecord::Base
 
   private
 
-  # create sample categories and accounts
-  def create_sample_accounts_categories
-  	self.accounts.create(name: 'Cash')
-  	self.categories.create(name: 'Pocket Money')
+  def create_accounts
+    self.accounts.create(name: 'Cash')
+    self.accounts.create(name: 'Our Money')
+    self.accounts.create(name: 'Credit Card')
+  end
+
+  def create_categories
+    self.categories.create(name: 'Bikes')
+    self.categories.create(name: 'Electricity')
+    self.categories.create(name: 'Eating Out')
+    self.categories.create(name: 'Entertainment')
   end
   
 end
