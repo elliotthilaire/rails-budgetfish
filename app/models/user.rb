@@ -6,5 +6,6 @@ class User < ActiveRecord::Base
 
   has_many :categories
   has_many :accounts
+  has_many :expenses
   
 end
