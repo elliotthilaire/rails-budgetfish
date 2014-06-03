@@ -15,8 +15,8 @@
   <tbody>
     <% @expenses.each do |expense| %>
       <tr>
-        <td><%= expense.account %></td>
-        <td><%= expense.category %></td>
+        <td><%= expense.account.name %></td>
+        <td><%= expense.category.name %></td>
         <td><%= expense.amount %></td>
         <td><%= expense.date %></td>
         <td><%= expense.description %></td>

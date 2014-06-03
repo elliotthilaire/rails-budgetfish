@@ -11,13 +11,14 @@
     </div>
   <% end %>
 
+
   <div class="field">
     <%= f.label :account_id %><br>
-    <%= f.text_field :account_id %>
+    <%= collection_select(:expense, :account_id, current_user.accounts, :id, :name) %>
   </div>
   <div class="field">
     <%= f.label :category_id %><br>
-    <%= f.text_field :category_id %>
+    <%= collection_select(:expense, :category_id, current_user.categories, :id, :name) %>
   </div>
   <div class="field">
     <%= f.label :amount %><br>
