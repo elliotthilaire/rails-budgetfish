@@ -64,4 +64,6 @@ gem 'devise'
 # problems with unique names.
 gem 'database_cleaner', group: :test
 
-
+# Use Better Errors https://github.com/charliesome/better_errors
+gem 'better_errors', group: :development
+gem 'binding_of_caller', group: :development
