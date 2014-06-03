@@ -5,3 +5,4 @@ Warden.test_mode!
 
 user = FactoryGirl.create(:user)
 login_as(user, :scope => :user)
+
