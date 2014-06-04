@@ -12,6 +12,7 @@ Rails.application.routes.draw do
 
   get 'expenses_report' => 'expenses_report#index'
   get 'expenses_report/:year' => 'expenses_report#by_year'
+  get 'expenses_report/:year/:month' => 'expenses_report#by_month'
 
   root 'expenses#index'
 
