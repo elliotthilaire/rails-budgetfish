@@ -17,7 +17,7 @@
       <tr>
         <td><%= expense.account.name %></td>
         <td><%= expense.category.name %></td>
-        <td><%= expense.amount %></td>
+        <td><%= number_to_currency(expense.amount) %></td>
         <td><%= expense.date %></td>
         <td><%= expense.description %></td>
         <td><%= link_to 'Show', expense %></td>
