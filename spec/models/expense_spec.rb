@@ -32,4 +32,7 @@ describe Category do
     expect(c).to be_invalid
   end
 
+  it 'responds to by_year'
+  it 'responds to by_month'
+
 end

@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get 'welcome' => 'welcome#index'
 
   get 'expenses_report' => 'expenses_report#index'
+  get 'expenses_report/:year' => 'expenses_report#by_year'
 
   root 'expenses#index'
 

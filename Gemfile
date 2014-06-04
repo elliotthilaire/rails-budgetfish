@@ -67,3 +67,6 @@ gem 'database_cleaner', group: :test
 # Use Better Errors https://github.com/charliesome/better_errors
 gem 'better_errors', group: :development
 gem 'binding_of_caller', group: :development
+
+# User ByStar, a gem that enables by_year, by_month, (and much more), scopes in models.
+gem 'by_star', :git => "git://github.com/radar/by_star"
