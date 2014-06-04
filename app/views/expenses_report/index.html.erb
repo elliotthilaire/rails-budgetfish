@@ -9,10 +9,10 @@
   </thead>
 
   <tbody>
-    <% @datas.each do |data| %>
+    <% @categories.each do |category| %>
       <tr>
-        <td><%= data[0].name %></td>
-        <td><%= data[1] %></td>
+        <td><%= category.name %></td>
+        <td><%= category.expenses.sum(:amount) %></td>
       </tr>
     <% end %>
   </tbody>
