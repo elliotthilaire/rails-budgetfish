@@ -30,6 +30,11 @@ describe AccountsController do
   # AccountsController. Be sure to keep this updated too.
   let(:valid_session) { {} }
 
+  before do
+    # Sign in as a user.
+    sign_in_as_a_valid_user
+  end
+
   describe "GET index" do
     it "assigns all accounts as @accounts" do
       account = Account.create! valid_attributes

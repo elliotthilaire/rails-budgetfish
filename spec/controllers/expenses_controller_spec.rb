@@ -20,6 +20,11 @@ require 'spec_helper'
 
 describe ExpensesController do
 
+  before do
+    # Sign in as a user.
+    sign_in_as_a_valid_user
+  end
+
   # This should return the minimal set of attributes required to create a valid
   # Expense. As you add validations to Expense, be sure to
   # adjust the attributes here as well.
