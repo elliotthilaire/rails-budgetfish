@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Account do
+describe Account, :type => :model do
   
   it 'has a valid factory' do
     c = FactoryGirl.create(:account)

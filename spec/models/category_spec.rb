@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Category do
+describe Category, :type => :model do
   
   it 'has a valid factory' do
     c = FactoryGirl.create(:category)
