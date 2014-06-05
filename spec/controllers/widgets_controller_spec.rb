@@ -24,6 +24,12 @@ RSpec.describe WidgetsController, :type => :controller do
     sign_in_as_a_valid_user
   end
 
+  it "should have a current_user" do
+    # note the fact that I removed the "validate_session" parameter if this was a scaffold-generated controller
+    #subject.current_user.should_not be_nil
+    expect(subject.current_user).not_to eq(nil)
+  end
+
   # This should return the minimal set of attributes required to create a valid
   # Widget. As you add validations to Widget, be sure to
   # adjust the attributes here as well.
@@ -40,11 +46,7 @@ RSpec.describe WidgetsController, :type => :controller do
   # WidgetsController. Be sure to keep this updated too.
   let(:valid_session) { {} }
 
-  it "should have a current_user" do
-    # note the fact that I removed the "validate_session" parameter if this was a scaffold-generated controller
-    #subject.current_user.should_not be_nil
-    expect(subject.current_user).not_to eq(nil)
-  end
+
 
   describe "GET index" do
     it "assigns all widgets as @widgets" do
@@ -113,14 +115,14 @@ RSpec.describe WidgetsController, :type => :controller do
   describe "PUT update" do
     describe "with valid params" do
       let(:new_attributes) {
-        skip("Add a hash of attributes valid for your model")
+        { "name" => "something different" }
       }
 
       it "updates the requested widget" do
         widget = Widget.create! valid_attributes
         put :update, {:id => widget.to_param, :widget => new_attributes}, valid_session
         widget.reload
-        skip("Add assertions for updated state")
+        expect(widget.name).to eq("something different")
       end
 
       it "assigns the requested widget as @widget" do
