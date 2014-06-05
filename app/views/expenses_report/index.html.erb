@@ -12,7 +12,7 @@
     <% @categories.each do |category| %>
       <tr>
         <td><%= category.name %></td>
-        <td><%= category.expenses.sum(:amount) %></td>
+        <td><%= number_to_currency(category.expenses.sum(:amount)) %></td>
       </tr>
     <% end %>
   </tbody>
