@@ -1,5 +1,12 @@
 <h1>Listing expenses</h1>
 
+<% if @start_date %>
+  <p>Showing expenses from: <%= @start_date %><p>
+<% end%>
+<% if @end_date %>
+  <p>until: <%= @end_date %></p>
+<% end %>
+
 <table>
   <thead>
     <tr>

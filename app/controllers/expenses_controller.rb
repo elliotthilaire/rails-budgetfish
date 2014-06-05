@@ -5,7 +5,26 @@ class ExpensesController < ApplicationController
   # GET /expenses
   # GET /expenses.json
   def index
+    
     @expenses = current_user.expenses
+
+    # apply filters
+    begin
+      @start_date = params[:start_date].to_date
+      @end_date = params[:end_date].to_date
+    rescue
+      # do nothing.
+    end
+
+    if @start_date
+      @expenses = @expenses.where("date >= ?", @start_date)
+    end
+
+    if @end_date
+      @expenses = @expenses.where("date <= ?", @end_date)
+    end
+
+
   end
 
   # GET /expenses/1
