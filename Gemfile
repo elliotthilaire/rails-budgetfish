@@ -39,7 +39,7 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 # Use rspec and fuubar formatter
-gem 'rspec-rails','~> 2.99', group: [:development, :test]
+gem 'rspec-rails', group: [:development, :test]
 gem 'fuubar', group: :development
 
 # Use Factory girl
