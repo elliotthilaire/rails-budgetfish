@@ -15,7 +15,6 @@ RSpec.describe "widgets/new", :type => :view do
 
       assert_select "input#widget_name[name=?]", "widget[name]"
 
-      assert_select "input#widget_user_id[name=?]", "widget[user_id]"
     end
   end
 end

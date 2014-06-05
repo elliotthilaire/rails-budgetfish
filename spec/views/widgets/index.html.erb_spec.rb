@@ -5,11 +5,11 @@ RSpec.describe "widgets/index", :type => :view do
     assign(:widgets, [
       Widget.create!(
         :name => "Name",
-        :user => nil
+        :user => FactoryGirl.build_stubbed(:user)
       ),
       Widget.create!(
         :name => "Name",
-        :user => nil
+        :user => FactoryGirl.build_stubbed(:user)
       )
     ])
   end
@@ -17,6 +17,5 @@ RSpec.describe "widgets/index", :type => :view do
   it "renders a list of widgets" do
     render
     assert_select "tr>td", :text => "Name".to_s, :count => 2
-    assert_select "tr>td", :text => nil.to_s, :count => 2
   end
 end
