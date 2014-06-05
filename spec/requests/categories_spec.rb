@@ -1,7 +1,11 @@
 require 'spec_helper'
-require 'login_helper'
 
 describe "Categories" do
+
+  before do
+    # Sign in as a user.
+    sign_in_as_a_valid_user
+  end
   
   describe "GET /categories" do
     it "works! (now write some real specs)" do
