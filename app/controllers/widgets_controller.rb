@@ -16,7 +16,6 @@ class WidgetsController < ApplicationController
   # GET /widgets/new
   def new
     @widget = Widget.new
-    @widget.user = current_user
   end
 
   # GET /widgets/1/edit
