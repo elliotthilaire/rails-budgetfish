@@ -48,9 +48,6 @@ RSpec.describe AccountsController, :type => :controller do
 
   describe "GET index" do
     it "assigns all accounts as @accounts" do
-      subject.current_user.accounts.destroy_all
-      #account = subject.current_user.accounts.create! valid_attributes
-      account = FactoryGirl.create(:account, {user: subject.current_user})
       account = Account.create! valid_attributes
       get :index, {}, valid_session
       expect(assigns(:accounts)).to eq([account])
