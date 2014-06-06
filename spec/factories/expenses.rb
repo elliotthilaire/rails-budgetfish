@@ -2,9 +2,6 @@
 
 FactoryGirl.define do
   factory :expense do
-    # user {FactoryGirl.create(:user)}
-    # account { FactoryGirl.create(:account) }
-    # category { FactoryGirl.create(:category) }
     user { build_stubbed :user }
     account { build_stubbed :account }
     category { build_stubbed :category}
