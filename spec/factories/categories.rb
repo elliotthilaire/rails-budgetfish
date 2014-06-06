@@ -6,8 +6,8 @@ FactoryGirl.define do
 
   factory :category do
     name { generate(:category_name) }
-    #user { build_stubbed :user }
-    user { FactoryGirl.create(:user) }
+    user { build_stubbed :user }
+    #user { FactoryGirl.create(:user) }
   end
 
 end

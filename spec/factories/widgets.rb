@@ -3,7 +3,7 @@
 FactoryGirl.define do
   sequence(:widget_name) { |n| "Widget #{n}" }
   factory :widget do
-    name { FactoryGirl.generate(:account_name) }
+    name { FactoryGirl.generate(:widget_name) }
     user { FactoryGirl.create(:user) }
   end
 end
