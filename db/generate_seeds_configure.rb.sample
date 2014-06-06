@@ -1,0 +1,7 @@
+
+@migrate_config = {
+  hostname: 'localhost',
+  username: 'budgetfish',
+  password: 'password',
+  database: 'budgetfish'
+}
