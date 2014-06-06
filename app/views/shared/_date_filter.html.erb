@@ -1,0 +1,19 @@
+<div>
+  <%= link_to('This month', this_month_path) %> | 
+  <%= link_to('Last month', last_month_path) %> |
+  <%= link_to('This year', this_year_path) %> |
+  <%= link_to('All time', expenses_report_path) %>
+</div>
+
+<% if ( @start_date || @end_date ) %>
+  <div><span>Showing expenses </span>
+    <% if @start_date %>
+      <span>from: <%= @start_date %> </span>
+    <% end %>
+    <% if @end_date %>
+      <span>until: <%= @end_date %></span>
+    <% end %>
+  </div>
+<% else %>
+  <div><span>Showing all expenses</span></div>
+<% end %>
