@@ -69,4 +69,4 @@ gem 'better_errors', group: :development
 gem 'binding_of_caller', group: :development
 
 # User ByStar, a gem that enables by_year, by_month, (and much more), scopes in models.
-gem 'by_star', :git => "git://github.com/radar/by_star"
+gem 'by_star'
