@@ -27,7 +27,7 @@
     <% @data.each do |row| %>
       <tr>
         <td><%= row[0].name %></td>
-        <td><%= row[1] %></td>
+        <td><%= number_to_currency(row[1]) %></td>
       </tr>
     <% end %>
   </tbody>
