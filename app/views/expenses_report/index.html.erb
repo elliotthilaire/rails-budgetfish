@@ -1,11 +1,6 @@
 <h1>Expenses Report</h1>
 
-<div>
-  <%= link_to('This month', this_month_path) %> | 
-  <%= link_to('Last month', last_month_path) %> |
-  <%= link_to('This year', this_year_path) %> |
-  <%= link_to('All time', expenses_report_path) %>
-</div>
+<%= render "shared/date_filter_links" %>
 
 <% if ( @start_date || @end_date ) %>
   <div><span>Showing expenses </span>
