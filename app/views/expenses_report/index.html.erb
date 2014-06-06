@@ -1,5 +1,18 @@
 <h1>Expenses Report</h1>
 
+
+
+<% if ( @start_date || @end_date ) %>
+  <div><span>Showing expenses </span>
+    <% if @start_date %>
+      <span>from: <%= @start_date %> </span>
+    <% end %>
+    <% if @end_date %>
+      <span>until: <%= @end_date %></span>
+    <% end %>
+  </div>
+<% end %>
+
 <table>
   <thead>
     <tr>
@@ -9,10 +22,10 @@
   </thead>
 
   <tbody>
-    <% @categories.each do |category| %>
+    <% @data.each do |row| %>
       <tr>
-        <td><%= category.name %></td>
-        <td><%= number_to_currency(category.expenses.sum(:amount)) %></td>
+        <td><%= row[0].name %></td>
+        <td><%= row[1] %></td>
       </tr>
     <% end %>
   </tbody>
