@@ -4,6 +4,6 @@ FactoryGirl.define do
   sequence(:widget_name) { |n| "Widget #{n}" }
   factory :widget do
     name { FactoryGirl.generate(:widget_name) }
-    user { FactoryGirl.create(:user) }
+    user { build_stubbed :user }
   end
 end
