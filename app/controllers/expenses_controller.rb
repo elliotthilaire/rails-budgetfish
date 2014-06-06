@@ -9,12 +9,8 @@ class ExpensesController < ApplicationController
     @expenses = current_user.expenses
 
     # apply filters
-    begin
-      @start_date = params[:start_date].to_date
-      @end_date = params[:end_date].to_date
-    rescue
-      # do nothing.
-    end
+    @start_date = params[:start_date].to_date rescue nil
+    @end_date = params[:end_date].to_date rescue nil
 
     if @start_date
       @expenses = @expenses.where("date >= ?", @start_date)
@@ -23,7 +19,6 @@ class ExpensesController < ApplicationController
     if @end_date
       @expenses = @expenses.where("date <= ?", @end_date)
     end
-
 
   end
 
