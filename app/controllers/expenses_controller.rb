@@ -6,7 +6,7 @@ class ExpensesController < ApplicationController
   # GET /expenses.json
   def index
     
-    @expenses = current_user.expenses
+    @expenses = current_user.expenses.includes(:category, :account)
 
     # apply filters
     @start_date = params[:start_date].to_date rescue nil
