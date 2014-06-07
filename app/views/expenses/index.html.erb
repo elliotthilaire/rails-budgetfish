@@ -1,15 +1,6 @@
 <h1>Listing expenses</h1>
 
-<% if ( @start_date || @end_date ) %>
-  <div><span>Showing expenses </span>
-    <% if @start_date %>
-      <span>from: <%= @start_date %> </span>
-    <% end %>
-    <% if @end_date %>
-      <span>until: <%= @end_date %></span>
-    <% end %>
-  </div>
-<% end %>
+<%= render "shared/date_filter" %>
 
 <table>
   <thead>
