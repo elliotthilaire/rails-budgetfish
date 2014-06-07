@@ -9,11 +9,11 @@
 <table>
   <thead>
     <tr>
-      <th>Account</th>
-      <th>Category</th>
-      <th>Amount</th>
       <th>Date</th>
+      <th>Amount</th>
+      <th>Category</th>
       <th>Description</th>
+      <th>Account</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -21,11 +21,11 @@
   <tbody>
     <% @expenses.each do |expense| %>
       <tr>
-        <td><%= expense.account.name %></td>
-        <td><%= expense.category.name %></td>
-        <td><%= number_to_currency(expense.amount) %></td>
         <td><%= expense.date %></td>
+        <td><%= number_to_currency(expense.amount) %></td>
+        <td><%= expense.category.name %></td>
         <td><%= expense.description %></td>
+        <td><%= expense.account.name %></td>
         <td><%= link_to 'Show', expense %></td>
         <td><%= link_to 'Edit', edit_expense_path(expense) %></td>
         <td><%= link_to 'Destroy', expense, method: :delete, data: { confirm: 'Are you sure?' } %></td>
