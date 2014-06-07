@@ -1,5 +1,9 @@
 <h1>Listing expenses</h1>
 
+<div>
+  <%= link_to 'New Expense', new_expense_path %>
+</div>
+
 <%= render "shared/date_filter" %>
 
 <table>
@@ -30,6 +34,4 @@
   </tbody>
 </table>
 
-<br>
 
-<%= link_to 'New Expense', new_expense_path %>
