@@ -68,5 +68,9 @@ gem 'database_cleaner', group: :test
 gem 'better_errors', group: :development
 gem 'binding_of_caller', group: :development
 
+# Use MiniProfiler with flamegraphs
+gem 'rack-mini-profiler', group: :development
+gem 'flamegraph', group: :development
+
 # User ByStar, a gem that enables by_year, by_month, (and much more), scopes in models.
 gem 'by_star'
