@@ -9,16 +9,19 @@ class ExpensesController < ApplicationController
     @expenses = current_user.expenses.includes(:category, :account)
 
     # apply filters
+
     @start_date = params[:start_date].to_date rescue nil
     @end_date = params[:end_date].to_date rescue nil
 
-    if @start_date
-      @expenses = @expenses.where("date >= ?", @start_date)
-    end
+    @expenses = @expenses.date_after(@start_date).date_before(@end_date)
 
-    if @end_date
-      @expenses = @expenses.where("date <= ?", @end_date)
-    end
+  #  if @start_date
+  #    @expenses = @expenses.date_after(@start_date)
+  #  end
+
+  #  if @end_date
+  #    @expenses = @expenses.date_before(@end_date)
+  #  end
 
   end
 
