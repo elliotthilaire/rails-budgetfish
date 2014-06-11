@@ -5,23 +5,14 @@ class ExpensesController < ApplicationController
   # GET /expenses
   # GET /expenses.json
   def index
-    
-    @expenses = current_user.expenses.includes(:category, :account)
-
-    # apply filters
-
+  
     @start_date = params[:start_date].to_date rescue nil
     @end_date = params[:end_date].to_date rescue nil
-
-    @expenses = @expenses.date_after(@start_date).date_before(@end_date)
-
-  #  if @start_date
-  #    @expenses = @expenses.date_after(@start_date)
-  #  end
-
-  #  if @end_date
-  #    @expenses = @expenses.date_before(@end_date)
-  #  end
+    
+    @expenses = current_user.expenses
+                            .date_after(@start_date)
+                            .date_before(@end_date)
+                            .includes(:category, :account)
 
   end
 
