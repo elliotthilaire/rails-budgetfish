@@ -7,8 +7,8 @@ class User < ActiveRecord::Base
   has_many :categories
   has_many :accounts
   has_many :expenses
+  has_many :incomes
   has_many :widgets
-
   private
 
   
