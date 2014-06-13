@@ -5,7 +5,7 @@ FactoryGirl.define do
   sequence(:account_name) { |n| "Account #{n}" }
 
   factory :account do
-    name { FactoryGirl.generate(:account_name) }
+    name { generate(:account_name) }
     user { build_stubbed :user }
   end
 
