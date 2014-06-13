@@ -7,4 +7,8 @@ class Account < ActiveRecord::Base
 	has_many :expenses
 	has_many :incomes
 
+	def balance
+		incomes.sum(:amount) - expenses.sum(:amount)
+	end
+
 end
