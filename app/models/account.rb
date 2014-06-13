@@ -6,9 +6,18 @@ class Account < ActiveRecord::Base
 	belongs_to :user
 	has_many :expenses
 	has_many :incomes
+	has_many :allocations
 
 	def balance
 		incomes.sum(:amount) - expenses.sum(:amount)
+	end
+
+	def allocated_balance
+        allocations.sum(:amount)
+	end
+
+	def unallocated_balance
+        balance - allocations.sum(:amount)
 	end
 
 end
