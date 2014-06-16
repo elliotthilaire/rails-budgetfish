@@ -13,11 +13,11 @@ class Account < ActiveRecord::Base
 	end
 
 	def allocated_balance
-        allocations.sum(:amount)
+        allocations.sum(:amount) - expenses.sum(:amount)
 	end
 
 	def unallocated_balance
-        balance - allocations.sum(:amount)
+        incomes.sum(:amount) - allocations.sum(:amount)
 	end
 
 end
