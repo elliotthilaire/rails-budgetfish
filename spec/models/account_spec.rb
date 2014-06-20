@@ -17,4 +17,17 @@ describe Account, :type => :model do
     expect(account).to be_invalid
   end
 
+  describe 'balance' do
+  
+  it 'returns the sum of incomes and expenses' do
+
+    account = FactoryGirl.create(:account)
+    expense1 = FactoryGirl.create(:expense, {account: account, amount: 100})
+    income1 = FactoryGirl.create(:income, {account: account, amount: 300})
+
+    expect(account.balance.to_i).to eql(200)
+
+  end
+end
+
 end
