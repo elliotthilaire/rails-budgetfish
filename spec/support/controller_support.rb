@@ -7,6 +7,10 @@ module ValidUserControllerHelper
     @user ||= FactoryGirl.create :user
     sign_in @user # method from devise:TestHelpers
   end
+
+  def current_user
+  	@user
+  end
 end
 
 RSpec.configure do |config|

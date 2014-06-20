@@ -42,7 +42,8 @@ RSpec.describe AllocationsController, :type => :controller do
 
   describe "GET index" do
     it "assigns all allocations as @allocations" do
-      allocation = Allocation.create! valid_attributes
+     # allocation = Allocation.create! valid_attributes
+      allocation = FactoryGirl.create(:allocation, {user: current_user})
       get :index, {}, valid_session
       expect(assigns(:allocations)).to eq([allocation])
     end
