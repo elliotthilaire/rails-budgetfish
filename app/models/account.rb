@@ -8,6 +8,12 @@ class Account < ActiveRecord::Base
 	has_many :incomes
 	has_many :allocations
 
+
+     
+    def current_balance
+      incomes.date_before(Date.today).sum(:amount) - expenses.date_before(Date.today).sum(:amount)
+    end
+
 	def balance
 		incomes.sum(:amount) - expenses.sum(:amount)
 	end

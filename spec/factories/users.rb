@@ -8,7 +8,7 @@ FactoryGirl.define do
   
   factory :user do
   	email
-    # email { Faker::Internet.email } # this works if the database_cleaner gem is not in use.
+    #email { Faker::Internet.email } # this works if the database_cleaner gem is not in use.
     password "P455W0RD"
   end
 
