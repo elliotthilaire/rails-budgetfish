@@ -4,7 +4,7 @@ FactoryGirl.define do
   factory :allocation do
     date "2014-06-13"
     amount "9.99"
-    account { build_stubbed :account }
-    category { build_stubbed :category}
+    account
+    category
   end
 end

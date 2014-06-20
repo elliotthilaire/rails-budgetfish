@@ -22,6 +22,7 @@ describe Account, :type => :model do
   it 'returns the sum of incomes and expenses' do
 
     account = FactoryGirl.create(:account)
+
     expense1 = FactoryGirl.create(:expense, {account: account, amount: 100})
     income1 = FactoryGirl.create(:income, {account: account, amount: 300})
 

@@ -6,7 +6,7 @@ FactoryGirl.define do
 
   factory :account do
     name { generate(:account_name) }
-    user { build_stubbed :user }
+    user
   end
 
 end
