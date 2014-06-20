@@ -1,10 +1,11 @@
 class AllocationsController < ApplicationController
   before_action :set_allocation, only: [:show, :edit, :update, :destroy]
-
+  before_action :authenticate_user!
+ 
   # GET /allocations
   # GET /allocations.json
   def index
-    @allocations = Allocation.all
+    @allocations = current_user.allocations
   end
 
   # GET /allocations/1
@@ -25,6 +26,7 @@ class AllocationsController < ApplicationController
   # POST /allocations.json
   def create
     @allocation = Allocation.new(allocation_params)
+    @allocation.user = current_user
 
     respond_to do |format|
       if @allocation.save
@@ -64,7 +66,7 @@ class AllocationsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_allocation
-      @allocation = Allocation.find(params[:id])
+      @allocation = current_user.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

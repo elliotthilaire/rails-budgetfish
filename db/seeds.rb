@@ -1,11 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
-
 puts "User.create(email: 'elliott.hilaire@gmail.com', password: 'password')"
 User.create(email: 'elliott.hilaire@gmail.com', password: 'password')
 
@@ -5799,3 +5791,6936 @@ Expense.create(
                	:account_id => 2,
                 :user_id => 1
               )
+Expense.create(
+		:id => 1295,
+              	:description => "floss and milk from asian shop",
+               	:amount => "5.66",
+              	:date => "2014-06-08",
+               	:category_id => 10,
+               	:account_id => 1,
+                :user_id => 1
+              )
+Expense.create(
+		:id => 1296,
+              	:description => "fish and chips at caloundra",
+               	:amount => "33.9",
+              	:date => "2014-06-07",
+               	:category_id => 34,
+               	:account_id => 1,
+                :user_id => 1
+              )
+Expense.create(
+		:id => 1297,
+              	:description => "ice blocks at fish shop caloundra",
+               	:amount => "6.8",
+              	:date => "2014-06-07",
+               	:category_id => 34,
+               	:account_id => 1,
+                :user_id => 1
+              )
+Expense.create(
+		:id => 1298,
+              	:description => "japanese snacks from asian shop",
+               	:amount => "32.24",
+              	:date => "2014-06-06",
+               	:category_id => 10,
+               	:account_id => 1,
+                :user_id => 1
+              )
+Expense.create(
+		:id => 1299,
+              	:description => "breaksfast at corner store cafe with friends.",
+               	:amount => "33.8",
+              	:date => "2014-06-07",
+               	:category_id => 15,
+               	:account_id => 1,
+                :user_id => 1
+              )
+Allocation.create(
+            :id => 712,
+            :amount => "36.41",
+            :date => "2013-06-28",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 713,
+            :amount => "68.42",
+            :date => "2013-06-28",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 714,
+            :amount => "57.49",
+            :date => "2013-06-28",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 715,
+            :amount => "24.11",
+            :date => "2013-06-28",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 716,
+            :amount => "3.97",
+            :date => "2013-06-28",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 717,
+            :amount => "2.68",
+            :date => "2013-06-28",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 718,
+            :amount => "300",
+            :date => "2013-06-28",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 719,
+            :amount => "25",
+            :date => "2013-06-28",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 720,
+            :amount => "25",
+            :date => "2013-06-28",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 721,
+            :amount => "17.25",
+            :date => "2013-06-28",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 722,
+            :amount => "40",
+            :date => "2013-06-28",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 723,
+            :amount => "11.5",
+            :date => "2013-06-28",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 724,
+            :amount => "11.5",
+            :date => "2013-06-28",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 725,
+            :amount => "20.31",
+            :date => "2013-06-28",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 726,
+            :amount => "34.69",
+            :date => "2013-06-28",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 727,
+            :amount => "19.16",
+            :date => "2013-06-28",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 728,
+            :amount => "36.41",
+            :date => "2013-06-28",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 729,
+            :amount => "7.67",
+            :date => "2013-06-28",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 730,
+            :amount => "8",
+            :date => "2013-06-28",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 731,
+            :amount => "5",
+            :date => "2013-06-28",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 732,
+            :amount => "6.13",
+            :date => "2013-06-28",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 733,
+            :amount => "7.67",
+            :date => "2013-06-28",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 734,
+            :amount => "38.33",
+            :date => "2013-06-28",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 735,
+            :amount => "0",
+            :date => "2013-06-28",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 736,
+            :amount => "0",
+            :date => "2013-06-28",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 737,
+            :amount => "19.16",
+            :date => "2013-06-28",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 738,
+            :amount => "38.33",
+            :date => "2013-06-28",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 739,
+            :amount => "15",
+            :date => "2013-06-28",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 740,
+            :amount => "0",
+            :date => "2013-06-28",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 741,
+            :amount => "2.68",
+            :date => "2013-06-28",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 742,
+            :amount => "0",
+            :date => "2013-06-28",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 743,
+            :amount => "0",
+            :date => "2013-06-28",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 744,
+            :amount => "0",
+            :date => "2013-06-28",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 745,
+            :amount => "0",
+            :date => "2013-06-28",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 746,
+            :amount => "36.41",
+            :date => "2013-07-12",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 747,
+            :amount => "68.42",
+            :date => "2013-07-12",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 748,
+            :amount => "57.49",
+            :date => "2013-07-12",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 749,
+            :amount => "24.11",
+            :date => "2013-07-12",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 750,
+            :amount => "3.97",
+            :date => "2013-07-12",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 751,
+            :amount => "2.68",
+            :date => "2013-07-12",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 752,
+            :amount => "300",
+            :date => "2013-07-12",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 753,
+            :amount => "25",
+            :date => "2013-07-12",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 754,
+            :amount => "25",
+            :date => "2013-07-12",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 755,
+            :amount => "17.25",
+            :date => "2013-07-12",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 756,
+            :amount => "40",
+            :date => "2013-07-12",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 757,
+            :amount => "11.5",
+            :date => "2013-07-12",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 758,
+            :amount => "11.5",
+            :date => "2013-07-12",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 759,
+            :amount => "20.31",
+            :date => "2013-07-12",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 760,
+            :amount => "34.69",
+            :date => "2013-07-12",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 761,
+            :amount => "19.16",
+            :date => "2013-07-12",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 762,
+            :amount => "36.41",
+            :date => "2013-07-12",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 763,
+            :amount => "7.67",
+            :date => "2013-07-12",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 764,
+            :amount => "8",
+            :date => "2013-07-12",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 765,
+            :amount => "5",
+            :date => "2013-07-12",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 766,
+            :amount => "6.13",
+            :date => "2013-07-12",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 767,
+            :amount => "7.67",
+            :date => "2013-07-12",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 768,
+            :amount => "38.33",
+            :date => "2013-07-12",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 769,
+            :amount => "0",
+            :date => "2013-07-12",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 770,
+            :amount => "0",
+            :date => "2013-07-12",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 771,
+            :amount => "19.16",
+            :date => "2013-07-12",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 772,
+            :amount => "38.33",
+            :date => "2013-07-12",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 773,
+            :amount => "15",
+            :date => "2013-07-12",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 774,
+            :amount => "0",
+            :date => "2013-07-12",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 775,
+            :amount => "2.68",
+            :date => "2013-07-12",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 776,
+            :amount => "0",
+            :date => "2013-07-12",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 777,
+            :amount => "0",
+            :date => "2013-07-12",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 778,
+            :amount => "0",
+            :date => "2013-07-12",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 779,
+            :amount => "0",
+            :date => "2013-07-12",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 780,
+            :amount => "36.41",
+            :date => "2013-07-26",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 781,
+            :amount => "68.42",
+            :date => "2013-07-26",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 782,
+            :amount => "57.49",
+            :date => "2013-07-26",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 783,
+            :amount => "24.11",
+            :date => "2013-07-26",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 784,
+            :amount => "3.97",
+            :date => "2013-07-26",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 785,
+            :amount => "2.68",
+            :date => "2013-07-26",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 786,
+            :amount => "300",
+            :date => "2013-07-26",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 787,
+            :amount => "25",
+            :date => "2013-07-26",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 788,
+            :amount => "25",
+            :date => "2013-07-26",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 789,
+            :amount => "17.25",
+            :date => "2013-07-26",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 790,
+            :amount => "40",
+            :date => "2013-07-26",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 791,
+            :amount => "11.5",
+            :date => "2013-07-26",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 792,
+            :amount => "11.5",
+            :date => "2013-07-26",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 793,
+            :amount => "20.31",
+            :date => "2013-07-26",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 794,
+            :amount => "34.69",
+            :date => "2013-07-26",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 795,
+            :amount => "19.16",
+            :date => "2013-07-26",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 796,
+            :amount => "36.41",
+            :date => "2013-07-26",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 797,
+            :amount => "7.67",
+            :date => "2013-07-26",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 798,
+            :amount => "8",
+            :date => "2013-07-26",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 799,
+            :amount => "5",
+            :date => "2013-07-26",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 800,
+            :amount => "6.13",
+            :date => "2013-07-26",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 801,
+            :amount => "7.67",
+            :date => "2013-07-26",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 802,
+            :amount => "38.33",
+            :date => "2013-07-26",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 803,
+            :amount => "0",
+            :date => "2013-07-26",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 804,
+            :amount => "0",
+            :date => "2013-07-26",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 805,
+            :amount => "19.16",
+            :date => "2013-07-26",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 806,
+            :amount => "38.33",
+            :date => "2013-07-26",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 807,
+            :amount => "15",
+            :date => "2013-07-26",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 808,
+            :amount => "0",
+            :date => "2013-07-26",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 809,
+            :amount => "2.68",
+            :date => "2013-07-26",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 810,
+            :amount => "0",
+            :date => "2013-07-26",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 811,
+            :amount => "0",
+            :date => "2013-07-26",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 812,
+            :amount => "0",
+            :date => "2013-07-26",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 813,
+            :amount => "0",
+            :date => "2013-07-26",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 814,
+            :amount => "106.15",
+            :date => "2013-06-28",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 815,
+            :amount => "335.83",
+            :date => "2013-06-28",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 850,
+            :amount => "36.41",
+            :date => "2013-08-10",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 851,
+            :amount => "68.42",
+            :date => "2013-08-10",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 852,
+            :amount => "57.49",
+            :date => "2013-08-10",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 853,
+            :amount => "24.11",
+            :date => "2013-08-10",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 854,
+            :amount => "3.97",
+            :date => "2013-08-10",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 855,
+            :amount => "2.68",
+            :date => "2013-08-10",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 856,
+            :amount => "300",
+            :date => "2013-08-10",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 857,
+            :amount => "25",
+            :date => "2013-08-10",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 858,
+            :amount => "25",
+            :date => "2013-08-10",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 859,
+            :amount => "17.25",
+            :date => "2013-08-10",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 860,
+            :amount => "40",
+            :date => "2013-08-10",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 861,
+            :amount => "11.5",
+            :date => "2013-08-10",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 862,
+            :amount => "11.5",
+            :date => "2013-08-10",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 863,
+            :amount => "20.31",
+            :date => "2013-08-10",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 864,
+            :amount => "34.69",
+            :date => "2013-08-10",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 865,
+            :amount => "19.16",
+            :date => "2013-08-10",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 866,
+            :amount => "36.41",
+            :date => "2013-08-10",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 867,
+            :amount => "7.67",
+            :date => "2013-08-10",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 868,
+            :amount => "8",
+            :date => "2013-08-10",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 869,
+            :amount => "5",
+            :date => "2013-08-10",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 870,
+            :amount => "6.13",
+            :date => "2013-08-10",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 871,
+            :amount => "7.67",
+            :date => "2013-08-10",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 872,
+            :amount => "38.33",
+            :date => "2013-08-10",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 873,
+            :amount => "0",
+            :date => "2013-08-10",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 874,
+            :amount => "0",
+            :date => "2013-08-10",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 875,
+            :amount => "19.16",
+            :date => "2013-08-10",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 876,
+            :amount => "38.33",
+            :date => "2013-08-10",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 877,
+            :amount => "15",
+            :date => "2013-08-10",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 878,
+            :amount => "0",
+            :date => "2013-08-10",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 879,
+            :amount => "2.68",
+            :date => "2013-08-10",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 880,
+            :amount => "0",
+            :date => "2013-08-10",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 881,
+            :amount => "0",
+            :date => "2013-08-10",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 882,
+            :amount => "0",
+            :date => "2013-08-10",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 883,
+            :amount => "0",
+            :date => "2013-08-10",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 884,
+            :amount => "36.41",
+            :date => "2013-08-23",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 885,
+            :amount => "68.42",
+            :date => "2013-08-23",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 886,
+            :amount => "57.49",
+            :date => "2013-08-23",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 887,
+            :amount => "24.11",
+            :date => "2013-08-23",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 888,
+            :amount => "3.97",
+            :date => "2013-08-23",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 889,
+            :amount => "2.68",
+            :date => "2013-08-23",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 890,
+            :amount => "300",
+            :date => "2013-08-23",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 891,
+            :amount => "25",
+            :date => "2013-08-23",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 892,
+            :amount => "25",
+            :date => "2013-08-23",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 893,
+            :amount => "17.25",
+            :date => "2013-08-23",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 894,
+            :amount => "40",
+            :date => "2013-08-23",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 895,
+            :amount => "11.5",
+            :date => "2013-08-23",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 896,
+            :amount => "11.5",
+            :date => "2013-08-23",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 897,
+            :amount => "20.31",
+            :date => "2013-08-23",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 898,
+            :amount => "34.69",
+            :date => "2013-08-23",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 899,
+            :amount => "19.16",
+            :date => "2013-08-23",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 900,
+            :amount => "36.41",
+            :date => "2013-08-23",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 901,
+            :amount => "7.67",
+            :date => "2013-08-23",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 902,
+            :amount => "8",
+            :date => "2013-08-23",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 903,
+            :amount => "5",
+            :date => "2013-08-23",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 904,
+            :amount => "6.13",
+            :date => "2013-08-23",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 905,
+            :amount => "7.67",
+            :date => "2013-08-23",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 906,
+            :amount => "38.33",
+            :date => "2013-08-23",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 907,
+            :amount => "0",
+            :date => "2013-08-23",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 908,
+            :amount => "0",
+            :date => "2013-08-23",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 909,
+            :amount => "19.16",
+            :date => "2013-08-23",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 910,
+            :amount => "38.33",
+            :date => "2013-08-23",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 911,
+            :amount => "15",
+            :date => "2013-08-23",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 912,
+            :amount => "0",
+            :date => "2013-08-23",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 913,
+            :amount => "2.68",
+            :date => "2013-08-23",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 914,
+            :amount => "0",
+            :date => "2013-08-23",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 915,
+            :amount => "0",
+            :date => "2013-08-23",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 916,
+            :amount => "0",
+            :date => "2013-08-23",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 917,
+            :amount => "0",
+            :date => "2013-08-23",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 918,
+            :amount => "36.41",
+            :date => "2013-09-06",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 919,
+            :amount => "68.42",
+            :date => "2013-09-06",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 920,
+            :amount => "57.49",
+            :date => "2013-09-06",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 921,
+            :amount => "24.11",
+            :date => "2013-09-06",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 922,
+            :amount => "3.97",
+            :date => "2013-09-06",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 923,
+            :amount => "2.68",
+            :date => "2013-09-06",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 924,
+            :amount => "300",
+            :date => "2013-09-06",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 925,
+            :amount => "25",
+            :date => "2013-09-06",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 926,
+            :amount => "25",
+            :date => "2013-09-06",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 927,
+            :amount => "17.25",
+            :date => "2013-09-06",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 928,
+            :amount => "40",
+            :date => "2013-09-06",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 929,
+            :amount => "11.5",
+            :date => "2013-09-06",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 930,
+            :amount => "11.5",
+            :date => "2013-09-06",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 931,
+            :amount => "20.31",
+            :date => "2013-09-06",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 932,
+            :amount => "34.69",
+            :date => "2013-09-06",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 933,
+            :amount => "19.16",
+            :date => "2013-09-06",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 934,
+            :amount => "36.41",
+            :date => "2013-09-06",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 935,
+            :amount => "7.67",
+            :date => "2013-09-06",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 936,
+            :amount => "8",
+            :date => "2013-09-06",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 937,
+            :amount => "5",
+            :date => "2013-09-06",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 938,
+            :amount => "6.13",
+            :date => "2013-09-06",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 939,
+            :amount => "7.67",
+            :date => "2013-09-06",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 940,
+            :amount => "38.33",
+            :date => "2013-09-06",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 941,
+            :amount => "0",
+            :date => "2013-09-06",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 942,
+            :amount => "0",
+            :date => "2013-09-06",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 943,
+            :amount => "19.16",
+            :date => "2013-09-06",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 944,
+            :amount => "38.33",
+            :date => "2013-09-06",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 945,
+            :amount => "15",
+            :date => "2013-09-06",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 946,
+            :amount => "0",
+            :date => "2013-09-06",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 947,
+            :amount => "2.68",
+            :date => "2013-09-06",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 948,
+            :amount => "0",
+            :date => "2013-09-06",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 949,
+            :amount => "0",
+            :date => "2013-09-06",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 950,
+            :amount => "0",
+            :date => "2013-09-06",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 951,
+            :amount => "0",
+            :date => "2013-09-06",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 952,
+            :amount => "70.65",
+            :date => "2013-09-10",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 953,
+            :amount => "683.4",
+            :date => "2013-10-02",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 954,
+            :amount => "36.41",
+            :date => "2013-09-20",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 955,
+            :amount => "68.42",
+            :date => "2013-09-20",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 956,
+            :amount => "57.49",
+            :date => "2013-09-20",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 957,
+            :amount => "24.11",
+            :date => "2013-09-20",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 958,
+            :amount => "3.97",
+            :date => "2013-09-20",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 959,
+            :amount => "2.68",
+            :date => "2013-09-20",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 960,
+            :amount => "300",
+            :date => "2013-09-20",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 961,
+            :amount => "25",
+            :date => "2013-09-20",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 962,
+            :amount => "25",
+            :date => "2013-09-20",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 963,
+            :amount => "17.25",
+            :date => "2013-09-20",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 964,
+            :amount => "40",
+            :date => "2013-09-20",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 965,
+            :amount => "11.5",
+            :date => "2013-09-20",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 966,
+            :amount => "11.5",
+            :date => "2013-09-20",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 967,
+            :amount => "20.31",
+            :date => "2013-09-20",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 968,
+            :amount => "34.69",
+            :date => "2013-09-20",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 969,
+            :amount => "19.16",
+            :date => "2013-09-20",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 970,
+            :amount => "36.41",
+            :date => "2013-09-20",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 971,
+            :amount => "7.67",
+            :date => "2013-09-20",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 972,
+            :amount => "8",
+            :date => "2013-09-20",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 973,
+            :amount => "5",
+            :date => "2013-09-20",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 974,
+            :amount => "6.13",
+            :date => "2013-09-20",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 975,
+            :amount => "7.67",
+            :date => "2013-09-20",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 976,
+            :amount => "38.33",
+            :date => "2013-09-20",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 977,
+            :amount => "0",
+            :date => "2013-09-20",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 978,
+            :amount => "0",
+            :date => "2013-09-20",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 979,
+            :amount => "19.16",
+            :date => "2013-09-20",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 980,
+            :amount => "38.33",
+            :date => "2013-09-20",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 981,
+            :amount => "15",
+            :date => "2013-09-20",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 982,
+            :amount => "0",
+            :date => "2013-09-20",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 983,
+            :amount => "2.68",
+            :date => "2013-09-20",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 984,
+            :amount => "0",
+            :date => "2013-09-20",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 985,
+            :amount => "0",
+            :date => "2013-09-20",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 986,
+            :amount => "0",
+            :date => "2013-09-20",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 987,
+            :amount => "0",
+            :date => "2013-09-20",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 988,
+            :amount => "36.41",
+            :date => "2013-10-04",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 989,
+            :amount => "68.42",
+            :date => "2013-10-04",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 990,
+            :amount => "57.49",
+            :date => "2013-10-04",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 991,
+            :amount => "24.11",
+            :date => "2013-10-04",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 992,
+            :amount => "3.97",
+            :date => "2013-10-04",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 993,
+            :amount => "2.68",
+            :date => "2013-10-04",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 994,
+            :amount => "300",
+            :date => "2013-10-04",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 995,
+            :amount => "25",
+            :date => "2013-10-04",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 996,
+            :amount => "25",
+            :date => "2013-10-04",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 997,
+            :amount => "17.25",
+            :date => "2013-10-04",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 998,
+            :amount => "40",
+            :date => "2013-10-04",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 999,
+            :amount => "11.5",
+            :date => "2013-10-04",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1000,
+            :amount => "11.5",
+            :date => "2013-10-04",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1001,
+            :amount => "20.31",
+            :date => "2013-10-04",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1002,
+            :amount => "34.69",
+            :date => "2013-10-04",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1003,
+            :amount => "19.16",
+            :date => "2013-10-04",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1004,
+            :amount => "36.41",
+            :date => "2013-10-04",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1005,
+            :amount => "7.67",
+            :date => "2013-10-04",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1006,
+            :amount => "8",
+            :date => "2013-10-04",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1007,
+            :amount => "5",
+            :date => "2013-10-04",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1008,
+            :amount => "6.13",
+            :date => "2013-10-04",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1009,
+            :amount => "7.67",
+            :date => "2013-10-04",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1010,
+            :amount => "38.33",
+            :date => "2013-10-04",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1011,
+            :amount => "0",
+            :date => "2013-10-04",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1012,
+            :amount => "0",
+            :date => "2013-10-04",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1013,
+            :amount => "19.16",
+            :date => "2013-10-04",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1014,
+            :amount => "38.33",
+            :date => "2013-10-04",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1015,
+            :amount => "15",
+            :date => "2013-10-04",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1016,
+            :amount => "0",
+            :date => "2013-10-04",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1017,
+            :amount => "2.68",
+            :date => "2013-10-04",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1018,
+            :amount => "0",
+            :date => "2013-10-04",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1019,
+            :amount => "0",
+            :date => "2013-10-04",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1020,
+            :amount => "0",
+            :date => "2013-10-04",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1021,
+            :amount => "0",
+            :date => "2013-10-04",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1022,
+            :amount => "36.41",
+            :date => "2013-10-19",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1023,
+            :amount => "68.42",
+            :date => "2013-10-19",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1024,
+            :amount => "57.49",
+            :date => "2013-10-19",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1025,
+            :amount => "24.11",
+            :date => "2013-10-19",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1026,
+            :amount => "3.97",
+            :date => "2013-10-19",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1027,
+            :amount => "2.68",
+            :date => "2013-10-19",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1028,
+            :amount => "300",
+            :date => "2013-10-19",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1029,
+            :amount => "25",
+            :date => "2013-10-19",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1030,
+            :amount => "25",
+            :date => "2013-10-19",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1031,
+            :amount => "17.25",
+            :date => "2013-10-19",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1032,
+            :amount => "40",
+            :date => "2013-10-19",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1033,
+            :amount => "11.5",
+            :date => "2013-10-19",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1034,
+            :amount => "11.5",
+            :date => "2013-10-19",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1035,
+            :amount => "20.31",
+            :date => "2013-10-19",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1036,
+            :amount => "34.69",
+            :date => "2013-10-19",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1037,
+            :amount => "19.16",
+            :date => "2013-10-19",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1038,
+            :amount => "36.41",
+            :date => "2013-10-19",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1039,
+            :amount => "7.67",
+            :date => "2013-10-19",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1040,
+            :amount => "8",
+            :date => "2013-10-19",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1041,
+            :amount => "5",
+            :date => "2013-10-19",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1042,
+            :amount => "6.13",
+            :date => "2013-10-19",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1043,
+            :amount => "7.67",
+            :date => "2013-10-19",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1044,
+            :amount => "38.33",
+            :date => "2013-10-19",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1045,
+            :amount => "0",
+            :date => "2013-10-19",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1046,
+            :amount => "0",
+            :date => "2013-10-19",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1047,
+            :amount => "19.16",
+            :date => "2013-10-19",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1048,
+            :amount => "38.33",
+            :date => "2013-10-19",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1049,
+            :amount => "15",
+            :date => "2013-10-19",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1050,
+            :amount => "0",
+            :date => "2013-10-19",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1051,
+            :amount => "2.68",
+            :date => "2013-10-19",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1052,
+            :amount => "0",
+            :date => "2013-10-19",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1053,
+            :amount => "0",
+            :date => "2013-10-19",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1054,
+            :amount => "0",
+            :date => "2013-10-19",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1055,
+            :amount => "0",
+            :date => "2013-10-19",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1056,
+            :amount => "48.05",
+            :date => "2013-10-28",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1057,
+            :amount => "149.1",
+            :date => "2013-10-28",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1058,
+            :amount => "36.41",
+            :date => "2013-11-01",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1059,
+            :amount => "68.42",
+            :date => "2013-11-01",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1060,
+            :amount => "57.49",
+            :date => "2013-11-01",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1061,
+            :amount => "24.11",
+            :date => "2013-11-01",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1062,
+            :amount => "3.97",
+            :date => "2013-11-01",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1063,
+            :amount => "2.68",
+            :date => "2013-11-01",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1064,
+            :amount => "300",
+            :date => "2013-11-01",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1065,
+            :amount => "25",
+            :date => "2013-11-01",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1066,
+            :amount => "25",
+            :date => "2013-11-01",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1067,
+            :amount => "17.25",
+            :date => "2013-11-01",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1068,
+            :amount => "40",
+            :date => "2013-11-01",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1069,
+            :amount => "11.5",
+            :date => "2013-11-01",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1070,
+            :amount => "11.5",
+            :date => "2013-11-01",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1071,
+            :amount => "20.31",
+            :date => "2013-11-01",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1072,
+            :amount => "34.69",
+            :date => "2013-11-01",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1073,
+            :amount => "19.16",
+            :date => "2013-11-01",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1074,
+            :amount => "36.41",
+            :date => "2013-11-01",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1075,
+            :amount => "7.67",
+            :date => "2013-11-01",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1076,
+            :amount => "8",
+            :date => "2013-11-01",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1077,
+            :amount => "5",
+            :date => "2013-11-01",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1078,
+            :amount => "6.13",
+            :date => "2013-11-01",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1079,
+            :amount => "7.67",
+            :date => "2013-11-01",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1080,
+            :amount => "38.33",
+            :date => "2013-11-01",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1081,
+            :amount => "0",
+            :date => "2013-11-01",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1082,
+            :amount => "0",
+            :date => "2013-11-01",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1083,
+            :amount => "19.16",
+            :date => "2013-11-01",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1084,
+            :amount => "38.33",
+            :date => "2013-11-01",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1085,
+            :amount => "15",
+            :date => "2013-11-01",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1086,
+            :amount => "0",
+            :date => "2013-11-01",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1087,
+            :amount => "2.68",
+            :date => "2013-11-01",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1088,
+            :amount => "0",
+            :date => "2013-11-01",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1089,
+            :amount => "0",
+            :date => "2013-11-01",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1090,
+            :amount => "0",
+            :date => "2013-11-01",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1091,
+            :amount => "0",
+            :date => "2013-11-01",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1092,
+            :amount => "2009.2",
+            :date => "2013-11-17",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1093,
+            :amount => "36.41",
+            :date => "2013-11-17",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1094,
+            :amount => "68.42",
+            :date => "2013-11-17",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1095,
+            :amount => "57.49",
+            :date => "2013-11-17",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1096,
+            :amount => "24.11",
+            :date => "2013-11-17",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1097,
+            :amount => "3.97",
+            :date => "2013-11-17",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1098,
+            :amount => "2.68",
+            :date => "2013-11-17",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1099,
+            :amount => "300",
+            :date => "2013-11-17",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1100,
+            :amount => "25",
+            :date => "2013-11-17",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1101,
+            :amount => "25",
+            :date => "2013-11-17",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1102,
+            :amount => "17.25",
+            :date => "2013-11-17",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1103,
+            :amount => "40",
+            :date => "2013-11-17",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1104,
+            :amount => "11.5",
+            :date => "2013-11-17",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1105,
+            :amount => "11.5",
+            :date => "2013-11-17",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1106,
+            :amount => "20.31",
+            :date => "2013-11-17",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1107,
+            :amount => "34.69",
+            :date => "2013-11-17",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1108,
+            :amount => "19.16",
+            :date => "2013-11-17",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1109,
+            :amount => "36.41",
+            :date => "2013-11-17",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1110,
+            :amount => "7.67",
+            :date => "2013-11-17",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1111,
+            :amount => "8",
+            :date => "2013-11-17",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1112,
+            :amount => "5",
+            :date => "2013-11-17",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1113,
+            :amount => "6.13",
+            :date => "2013-11-17",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1114,
+            :amount => "7.67",
+            :date => "2013-11-17",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1115,
+            :amount => "38.33",
+            :date => "2013-11-17",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1116,
+            :amount => "0",
+            :date => "2013-11-17",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1117,
+            :amount => "0",
+            :date => "2013-11-17",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1118,
+            :amount => "19.16",
+            :date => "2013-11-17",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1119,
+            :amount => "38.33",
+            :date => "2013-11-17",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1120,
+            :amount => "15",
+            :date => "2013-11-17",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1121,
+            :amount => "0",
+            :date => "2013-11-17",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1122,
+            :amount => "2.68",
+            :date => "2013-11-17",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1123,
+            :amount => "0",
+            :date => "2013-11-17",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1124,
+            :amount => "0",
+            :date => "2013-11-17",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1125,
+            :amount => "0",
+            :date => "2013-11-17",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1126,
+            :amount => "0",
+            :date => "2013-11-17",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1127,
+            :amount => "36.41",
+            :date => "2013-12-01",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1128,
+            :amount => "68.42",
+            :date => "2013-12-01",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1129,
+            :amount => "57.49",
+            :date => "2013-12-01",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1130,
+            :amount => "24.11",
+            :date => "2013-12-01",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1131,
+            :amount => "3.97",
+            :date => "2013-12-01",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1132,
+            :amount => "2.68",
+            :date => "2013-12-01",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1133,
+            :amount => "300",
+            :date => "2013-12-01",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1134,
+            :amount => "25",
+            :date => "2013-12-01",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1135,
+            :amount => "25",
+            :date => "2013-12-01",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1136,
+            :amount => "17.25",
+            :date => "2013-12-01",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1137,
+            :amount => "40",
+            :date => "2013-12-01",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1138,
+            :amount => "11.5",
+            :date => "2013-12-01",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1139,
+            :amount => "11.5",
+            :date => "2013-12-01",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1140,
+            :amount => "20.31",
+            :date => "2013-12-01",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1141,
+            :amount => "34.69",
+            :date => "2013-12-01",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1142,
+            :amount => "19.16",
+            :date => "2013-12-01",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1143,
+            :amount => "36.41",
+            :date => "2013-12-01",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1144,
+            :amount => "7.67",
+            :date => "2013-12-01",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1145,
+            :amount => "8",
+            :date => "2013-12-01",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1146,
+            :amount => "5",
+            :date => "2013-12-01",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1147,
+            :amount => "6.13",
+            :date => "2013-12-01",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1148,
+            :amount => "7.67",
+            :date => "2013-12-01",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1149,
+            :amount => "38.33",
+            :date => "2013-12-01",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1150,
+            :amount => "0",
+            :date => "2013-12-01",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1151,
+            :amount => "0",
+            :date => "2013-12-01",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1152,
+            :amount => "19.16",
+            :date => "2013-12-01",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1153,
+            :amount => "38.33",
+            :date => "2013-12-01",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1154,
+            :amount => "15",
+            :date => "2013-12-01",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1155,
+            :amount => "0",
+            :date => "2013-12-01",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1156,
+            :amount => "2.68",
+            :date => "2013-12-01",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1157,
+            :amount => "0",
+            :date => "2013-12-01",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1158,
+            :amount => "0",
+            :date => "2013-12-01",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1159,
+            :amount => "0",
+            :date => "2013-12-01",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1160,
+            :amount => "0",
+            :date => "2013-12-01",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1161,
+            :amount => "36.41",
+            :date => "2013-12-12",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1162,
+            :amount => "68.42",
+            :date => "2013-12-12",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1163,
+            :amount => "57.49",
+            :date => "2013-12-12",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1164,
+            :amount => "24.11",
+            :date => "2013-12-12",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1165,
+            :amount => "3.97",
+            :date => "2013-12-12",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1166,
+            :amount => "2.68",
+            :date => "2013-12-12",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1167,
+            :amount => "300",
+            :date => "2013-12-12",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1168,
+            :amount => "25",
+            :date => "2013-12-12",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1169,
+            :amount => "25",
+            :date => "2013-12-12",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1170,
+            :amount => "17.25",
+            :date => "2013-12-12",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1171,
+            :amount => "40",
+            :date => "2013-12-12",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1172,
+            :amount => "11.5",
+            :date => "2013-12-12",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1173,
+            :amount => "11.5",
+            :date => "2013-12-12",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1174,
+            :amount => "20.31",
+            :date => "2013-12-12",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1175,
+            :amount => "34.69",
+            :date => "2013-12-12",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1176,
+            :amount => "19.16",
+            :date => "2013-12-12",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1177,
+            :amount => "36.41",
+            :date => "2013-12-12",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1178,
+            :amount => "7.67",
+            :date => "2013-12-12",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1179,
+            :amount => "8",
+            :date => "2013-12-12",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1180,
+            :amount => "5",
+            :date => "2013-12-12",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1181,
+            :amount => "6.13",
+            :date => "2013-12-12",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1182,
+            :amount => "7.67",
+            :date => "2013-12-12",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1183,
+            :amount => "38.33",
+            :date => "2013-12-12",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1184,
+            :amount => "0",
+            :date => "2013-12-12",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1185,
+            :amount => "0",
+            :date => "2013-12-12",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1186,
+            :amount => "19.16",
+            :date => "2013-12-12",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1187,
+            :amount => "38.33",
+            :date => "2013-12-12",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1188,
+            :amount => "15",
+            :date => "2013-12-12",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1189,
+            :amount => "0",
+            :date => "2013-12-12",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1190,
+            :amount => "2.68",
+            :date => "2013-12-12",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1191,
+            :amount => "0",
+            :date => "2013-12-12",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1192,
+            :amount => "0",
+            :date => "2013-12-12",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1193,
+            :amount => "0",
+            :date => "2013-12-12",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1194,
+            :amount => "0",
+            :date => "2013-12-12",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1195,
+            :amount => "35",
+            :date => "2013-12-17",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1196,
+            :amount => "36.41",
+            :date => "2013-12-29",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1197,
+            :amount => "68.42",
+            :date => "2013-12-29",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1198,
+            :amount => "57.49",
+            :date => "2013-12-29",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1199,
+            :amount => "24.11",
+            :date => "2013-12-29",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1200,
+            :amount => "3.97",
+            :date => "2013-12-29",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1201,
+            :amount => "2.68",
+            :date => "2013-12-29",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1202,
+            :amount => "300",
+            :date => "2013-12-29",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1203,
+            :amount => "25",
+            :date => "2013-12-29",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1204,
+            :amount => "25",
+            :date => "2013-12-29",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1205,
+            :amount => "17.25",
+            :date => "2013-12-29",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1206,
+            :amount => "40",
+            :date => "2013-12-29",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1207,
+            :amount => "11.5",
+            :date => "2013-12-29",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1208,
+            :amount => "11.5",
+            :date => "2013-12-29",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1209,
+            :amount => "20.31",
+            :date => "2013-12-29",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1210,
+            :amount => "34.69",
+            :date => "2013-12-29",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1211,
+            :amount => "19.16",
+            :date => "2013-12-29",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1212,
+            :amount => "36.41",
+            :date => "2013-12-29",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1213,
+            :amount => "7.67",
+            :date => "2013-12-29",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1214,
+            :amount => "8",
+            :date => "2013-12-29",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1215,
+            :amount => "5",
+            :date => "2013-12-29",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1216,
+            :amount => "6.13",
+            :date => "2013-12-29",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1217,
+            :amount => "7.67",
+            :date => "2013-12-29",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1218,
+            :amount => "38.33",
+            :date => "2013-12-29",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1219,
+            :amount => "0",
+            :date => "2013-12-29",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1220,
+            :amount => "0",
+            :date => "2013-12-29",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1221,
+            :amount => "19.16",
+            :date => "2013-12-29",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1222,
+            :amount => "38.33",
+            :date => "2013-12-29",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1223,
+            :amount => "15",
+            :date => "2013-12-29",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1224,
+            :amount => "0",
+            :date => "2013-12-29",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1225,
+            :amount => "2.68",
+            :date => "2013-12-29",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1226,
+            :amount => "0",
+            :date => "2013-12-29",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1227,
+            :amount => "0",
+            :date => "2013-12-29",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1228,
+            :amount => "0",
+            :date => "2013-12-29",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1229,
+            :amount => "0",
+            :date => "2013-12-29",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1230,
+            :amount => "100",
+            :date => "2014-01-06",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1231,
+            :amount => "100",
+            :date => "2014-01-06",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1232,
+            :amount => "10",
+            :date => "2014-01-04",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1233,
+            :amount => "36.41",
+            :date => "2014-01-12",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1234,
+            :amount => "68.42",
+            :date => "2014-01-12",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1235,
+            :amount => "57.49",
+            :date => "2014-01-12",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1236,
+            :amount => "24.11",
+            :date => "2014-01-12",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1237,
+            :amount => "3.97",
+            :date => "2014-01-12",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1238,
+            :amount => "2.68",
+            :date => "2014-01-12",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1239,
+            :amount => "300",
+            :date => "2014-01-12",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1240,
+            :amount => "25",
+            :date => "2014-01-12",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1241,
+            :amount => "25",
+            :date => "2014-01-12",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1242,
+            :amount => "17.25",
+            :date => "2014-01-12",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1243,
+            :amount => "40",
+            :date => "2014-01-12",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1244,
+            :amount => "11.5",
+            :date => "2014-01-12",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1245,
+            :amount => "11.5",
+            :date => "2014-01-12",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1246,
+            :amount => "20.31",
+            :date => "2014-01-12",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1247,
+            :amount => "34.69",
+            :date => "2014-01-12",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1248,
+            :amount => "19.16",
+            :date => "2014-01-12",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1249,
+            :amount => "36.41",
+            :date => "2014-01-12",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1250,
+            :amount => "7.67",
+            :date => "2014-01-12",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1251,
+            :amount => "8",
+            :date => "2014-01-12",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1252,
+            :amount => "5",
+            :date => "2014-01-12",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1253,
+            :amount => "6.13",
+            :date => "2014-01-12",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1254,
+            :amount => "7.67",
+            :date => "2014-01-12",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1255,
+            :amount => "38.33",
+            :date => "2014-01-12",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1256,
+            :amount => "0",
+            :date => "2014-01-12",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1257,
+            :amount => "0",
+            :date => "2014-01-12",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1258,
+            :amount => "19.16",
+            :date => "2014-01-12",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1259,
+            :amount => "38.33",
+            :date => "2014-01-12",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1260,
+            :amount => "15",
+            :date => "2014-01-12",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1261,
+            :amount => "0",
+            :date => "2014-01-12",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1262,
+            :amount => "2.68",
+            :date => "2014-01-12",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1263,
+            :amount => "0",
+            :date => "2014-01-12",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1264,
+            :amount => "0",
+            :date => "2014-01-12",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1265,
+            :amount => "0",
+            :date => "2014-01-12",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1266,
+            :amount => "0",
+            :date => "2014-01-12",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1267,
+            :amount => "50",
+            :date => "2014-01-10",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1268,
+            :amount => "50",
+            :date => "2014-01-10",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1269,
+            :amount => "50",
+            :date => "2014-01-10",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1270,
+            :amount => "40",
+            :date => "2014-01-10",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1272,
+            :amount => "36.41",
+            :date => "2014-01-26",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1273,
+            :amount => "68.42",
+            :date => "2014-01-26",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1274,
+            :amount => "57.49",
+            :date => "2014-01-26",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1275,
+            :amount => "24.11",
+            :date => "2014-01-26",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1276,
+            :amount => "3.97",
+            :date => "2014-01-26",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1277,
+            :amount => "2.68",
+            :date => "2014-01-26",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1278,
+            :amount => "300",
+            :date => "2014-01-26",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1279,
+            :amount => "25",
+            :date => "2014-01-26",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1280,
+            :amount => "25",
+            :date => "2014-01-26",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1281,
+            :amount => "17.25",
+            :date => "2014-01-26",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1282,
+            :amount => "40",
+            :date => "2014-01-26",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1283,
+            :amount => "11.5",
+            :date => "2014-01-26",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1284,
+            :amount => "11.5",
+            :date => "2014-01-26",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1285,
+            :amount => "20.31",
+            :date => "2014-01-26",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1286,
+            :amount => "34.69",
+            :date => "2014-01-26",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1287,
+            :amount => "19.16",
+            :date => "2014-01-26",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1288,
+            :amount => "36.41",
+            :date => "2014-01-26",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1289,
+            :amount => "7.67",
+            :date => "2014-01-26",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1290,
+            :amount => "8",
+            :date => "2014-01-26",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1291,
+            :amount => "5",
+            :date => "2014-01-26",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1292,
+            :amount => "6.13",
+            :date => "2014-01-26",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1293,
+            :amount => "7.67",
+            :date => "2014-01-26",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1294,
+            :amount => "38.33",
+            :date => "2014-01-26",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1295,
+            :amount => "0",
+            :date => "2014-01-26",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1296,
+            :amount => "0",
+            :date => "2014-01-26",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1297,
+            :amount => "19.16",
+            :date => "2014-01-26",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1298,
+            :amount => "38.33",
+            :date => "2014-01-26",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1299,
+            :amount => "15",
+            :date => "2014-01-26",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1300,
+            :amount => "0",
+            :date => "2014-01-26",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1301,
+            :amount => "2.68",
+            :date => "2014-01-26",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1302,
+            :amount => "0",
+            :date => "2014-01-26",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1303,
+            :amount => "0",
+            :date => "2014-01-26",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1304,
+            :amount => "0",
+            :date => "2014-01-26",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1305,
+            :amount => "0",
+            :date => "2014-01-26",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1306,
+            :amount => "362",
+            :date => "2014-01-16",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1307,
+            :amount => "362",
+            :date => "2014-01-16",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1308,
+            :amount => "396",
+            :date => "2014-01-15",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1309,
+            :amount => "50",
+            :date => "2014-01-29",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1310,
+            :amount => "278.33",
+            :date => "2014-01-31",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1311,
+            :amount => "37.55",
+            :date => "2014-01-31",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1312,
+            :amount => "347.55",
+            :date => "2014-02-04",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1313,
+            :amount => "48.05",
+            :date => "2014-02-03",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1314,
+            :amount => "25.05",
+            :date => "2014-02-01",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1315,
+            :amount => "36.41",
+            :date => "2014-02-07",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1316,
+            :amount => "68.42",
+            :date => "2014-02-07",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1317,
+            :amount => "57.49",
+            :date => "2014-02-07",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1318,
+            :amount => "24.11",
+            :date => "2014-02-07",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1319,
+            :amount => "3.97",
+            :date => "2014-02-07",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1320,
+            :amount => "2.68",
+            :date => "2014-02-07",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1321,
+            :amount => "300",
+            :date => "2014-02-07",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1322,
+            :amount => "25",
+            :date => "2014-02-07",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1323,
+            :amount => "25",
+            :date => "2014-02-07",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1324,
+            :amount => "17.25",
+            :date => "2014-02-07",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1325,
+            :amount => "40",
+            :date => "2014-02-07",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1326,
+            :amount => "11.5",
+            :date => "2014-02-07",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1327,
+            :amount => "11.5",
+            :date => "2014-02-07",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1328,
+            :amount => "20.31",
+            :date => "2014-02-07",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1329,
+            :amount => "34.69",
+            :date => "2014-02-07",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1330,
+            :amount => "19.16",
+            :date => "2014-02-07",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1331,
+            :amount => "36.41",
+            :date => "2014-02-07",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1332,
+            :amount => "7.67",
+            :date => "2014-02-07",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1333,
+            :amount => "8",
+            :date => "2014-02-07",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1334,
+            :amount => "5",
+            :date => "2014-02-07",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1335,
+            :amount => "6.13",
+            :date => "2014-02-07",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1336,
+            :amount => "7.67",
+            :date => "2014-02-07",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1337,
+            :amount => "38.33",
+            :date => "2014-02-07",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1338,
+            :amount => "0",
+            :date => "2014-02-07",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1339,
+            :amount => "0",
+            :date => "2014-02-07",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1340,
+            :amount => "19.16",
+            :date => "2014-02-07",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1341,
+            :amount => "38.33",
+            :date => "2014-02-07",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1342,
+            :amount => "15",
+            :date => "2014-02-07",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1343,
+            :amount => "0",
+            :date => "2014-02-07",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1344,
+            :amount => "2.68",
+            :date => "2014-02-07",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1345,
+            :amount => "0",
+            :date => "2014-02-07",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1346,
+            :amount => "0",
+            :date => "2014-02-07",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1347,
+            :amount => "0",
+            :date => "2014-02-07",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1348,
+            :amount => "0",
+            :date => "2014-02-07",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1349,
+            :amount => "36.41",
+            :date => "2014-02-21",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1350,
+            :amount => "68.42",
+            :date => "2014-02-21",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1351,
+            :amount => "57.49",
+            :date => "2014-02-21",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1352,
+            :amount => "24.11",
+            :date => "2014-02-21",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1353,
+            :amount => "3.97",
+            :date => "2014-02-21",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1354,
+            :amount => "2.68",
+            :date => "2014-02-21",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1355,
+            :amount => "300",
+            :date => "2014-02-21",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1362,
+            :amount => "20.31",
+            :date => "2014-02-21",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1363,
+            :amount => "34.69",
+            :date => "2014-02-21",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1365,
+            :amount => "36.41",
+            :date => "2014-02-21",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1366,
+            :amount => "7.67",
+            :date => "2014-02-21",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1367,
+            :amount => "8",
+            :date => "2014-02-21",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1369,
+            :amount => "6.13",
+            :date => "2014-02-21",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1371,
+            :amount => "38.33",
+            :date => "2014-02-21",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1372,
+            :amount => "0",
+            :date => "2014-02-21",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1373,
+            :amount => "0",
+            :date => "2014-02-21",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1374,
+            :amount => "19.16",
+            :date => "2014-02-21",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1377,
+            :amount => "0",
+            :date => "2014-02-21",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1378,
+            :amount => "2.68",
+            :date => "2014-02-21",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1379,
+            :amount => "0",
+            :date => "2014-02-21",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1380,
+            :amount => "0",
+            :date => "2014-02-21",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1381,
+            :amount => "0",
+            :date => "2014-02-21",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1382,
+            :amount => "0",
+            :date => "2014-02-21",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1383,
+            :amount => "36.41",
+            :date => "2014-03-07",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1384,
+            :amount => "68.42",
+            :date => "2014-03-07",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1385,
+            :amount => "57.49",
+            :date => "2014-03-07",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1386,
+            :amount => "24.11",
+            :date => "2014-03-07",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1387,
+            :amount => "3.97",
+            :date => "2014-03-07",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1388,
+            :amount => "2.68",
+            :date => "2014-03-07",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1396,
+            :amount => "20.31",
+            :date => "2014-03-07",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1397,
+            :amount => "34.69",
+            :date => "2014-03-07",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1399,
+            :amount => "36.41",
+            :date => "2014-03-07",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1400,
+            :amount => "7.67",
+            :date => "2014-03-07",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1401,
+            :amount => "8",
+            :date => "2014-03-07",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1403,
+            :amount => "6.13",
+            :date => "2014-03-07",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1405,
+            :amount => "38.33",
+            :date => "2014-03-07",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1406,
+            :amount => "0",
+            :date => "2014-03-07",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1407,
+            :amount => "0",
+            :date => "2014-03-07",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1408,
+            :amount => "19.16",
+            :date => "2014-03-07",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1411,
+            :amount => "0",
+            :date => "2014-03-07",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1412,
+            :amount => "2.68",
+            :date => "2014-03-07",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1413,
+            :amount => "0",
+            :date => "2014-03-07",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1414,
+            :amount => "0",
+            :date => "2014-03-07",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1415,
+            :amount => "0",
+            :date => "2014-03-07",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1416,
+            :amount => "0",
+            :date => "2014-03-07",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1417,
+            :amount => "36.41",
+            :date => "2014-03-29",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1418,
+            :amount => "68.42",
+            :date => "2014-03-29",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1419,
+            :amount => "57.49",
+            :date => "2014-03-29",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1420,
+            :amount => "24.11",
+            :date => "2014-03-29",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1421,
+            :amount => "3.97",
+            :date => "2014-03-29",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1422,
+            :amount => "2.68",
+            :date => "2014-03-29",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1423,
+            :amount => "300",
+            :date => "2014-03-29",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1424,
+            :amount => "25",
+            :date => "2014-03-29",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1425,
+            :amount => "25",
+            :date => "2014-03-29",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1426,
+            :amount => "17.25",
+            :date => "2014-03-29",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1427,
+            :amount => "40",
+            :date => "2014-03-29",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1428,
+            :amount => "11.5",
+            :date => "2014-03-29",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1429,
+            :amount => "11.5",
+            :date => "2014-03-29",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1430,
+            :amount => "20.31",
+            :date => "2014-03-29",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1431,
+            :amount => "34.69",
+            :date => "2014-03-29",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1432,
+            :amount => "19.16",
+            :date => "2014-03-29",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1433,
+            :amount => "36.41",
+            :date => "2014-03-29",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1434,
+            :amount => "7.67",
+            :date => "2014-03-29",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1435,
+            :amount => "8",
+            :date => "2014-03-29",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1436,
+            :amount => "5",
+            :date => "2014-03-29",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1437,
+            :amount => "6.13",
+            :date => "2014-03-29",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1438,
+            :amount => "7.67",
+            :date => "2014-03-29",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1439,
+            :amount => "38.33",
+            :date => "2014-03-29",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1440,
+            :amount => "0",
+            :date => "2014-03-29",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1441,
+            :amount => "0",
+            :date => "2014-03-29",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1442,
+            :amount => "19.16",
+            :date => "2014-03-29",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1443,
+            :amount => "38.33",
+            :date => "2014-03-29",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1444,
+            :amount => "15",
+            :date => "2014-03-29",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1445,
+            :amount => "0",
+            :date => "2014-03-29",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1446,
+            :amount => "2.68",
+            :date => "2014-03-29",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1447,
+            :amount => "0",
+            :date => "2014-03-29",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1448,
+            :amount => "0",
+            :date => "2014-03-29",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1449,
+            :amount => "0",
+            :date => "2014-03-29",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1450,
+            :amount => "0",
+            :date => "2014-03-29",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1451,
+            :amount => "6000",
+            :date => "2014-03-01",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1452,
+            :amount => "2097",
+            :date => "2014-03-31",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1453,
+            :amount => "218",
+            :date => "2014-04-08",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1454,
+            :amount => "216",
+            :date => "2014-04-03",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1455,
+            :amount => "260",
+            :date => "2014-02-03",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1456,
+            :amount => "36.3",
+            :date => "2014-04-11",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1457,
+            :amount => "36.41",
+            :date => "2014-04-12",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1458,
+            :amount => "68.42",
+            :date => "2014-04-12",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1459,
+            :amount => "57.49",
+            :date => "2014-04-12",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1460,
+            :amount => "24.11",
+            :date => "2014-04-12",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1461,
+            :amount => "3.97",
+            :date => "2014-04-12",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1462,
+            :amount => "2.68",
+            :date => "2014-04-12",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1463,
+            :amount => "300",
+            :date => "2014-04-12",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1464,
+            :amount => "25",
+            :date => "2014-04-12",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1465,
+            :amount => "25",
+            :date => "2014-04-12",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1466,
+            :amount => "17.25",
+            :date => "2014-04-12",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1467,
+            :amount => "40",
+            :date => "2014-04-12",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1468,
+            :amount => "11.5",
+            :date => "2014-04-12",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1469,
+            :amount => "11.5",
+            :date => "2014-04-12",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1470,
+            :amount => "20.31",
+            :date => "2014-04-12",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1471,
+            :amount => "34.69",
+            :date => "2014-04-12",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1472,
+            :amount => "19.16",
+            :date => "2014-04-12",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1473,
+            :amount => "36.41",
+            :date => "2014-04-12",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1474,
+            :amount => "7.67",
+            :date => "2014-04-12",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1475,
+            :amount => "8",
+            :date => "2014-04-12",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1476,
+            :amount => "5",
+            :date => "2014-04-12",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1477,
+            :amount => "6.13",
+            :date => "2014-04-12",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1478,
+            :amount => "7.67",
+            :date => "2014-04-12",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1479,
+            :amount => "38.33",
+            :date => "2014-04-12",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1480,
+            :amount => "0",
+            :date => "2014-04-12",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1481,
+            :amount => "0",
+            :date => "2014-04-12",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1482,
+            :amount => "19.16",
+            :date => "2014-04-12",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1483,
+            :amount => "38.33",
+            :date => "2014-04-12",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1484,
+            :amount => "15",
+            :date => "2014-04-12",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1485,
+            :amount => "0",
+            :date => "2014-04-12",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1486,
+            :amount => "2.68",
+            :date => "2014-04-12",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1487,
+            :amount => "0",
+            :date => "2014-04-12",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1488,
+            :amount => "0",
+            :date => "2014-04-12",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1489,
+            :amount => "0",
+            :date => "2014-04-12",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1490,
+            :amount => "0",
+            :date => "2014-04-12",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1491,
+            :amount => "874.88",
+            :date => "2014-04-14",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1492,
+            :amount => "36.41",
+            :date => "2014-04-20",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1493,
+            :amount => "68.42",
+            :date => "2014-04-20",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1494,
+            :amount => "57.49",
+            :date => "2014-04-20",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1495,
+            :amount => "24.11",
+            :date => "2014-04-20",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1496,
+            :amount => "3.97",
+            :date => "2014-04-20",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1497,
+            :amount => "2.68",
+            :date => "2014-04-20",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1498,
+            :amount => "300",
+            :date => "2014-04-20",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1499,
+            :amount => "25",
+            :date => "2014-04-20",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1500,
+            :amount => "25",
+            :date => "2014-04-20",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1501,
+            :amount => "17.25",
+            :date => "2014-04-20",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1502,
+            :amount => "40",
+            :date => "2014-04-20",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1503,
+            :amount => "11.5",
+            :date => "2014-04-20",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1504,
+            :amount => "11.5",
+            :date => "2014-04-20",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1505,
+            :amount => "20.31",
+            :date => "2014-04-20",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1506,
+            :amount => "34.69",
+            :date => "2014-04-20",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1507,
+            :amount => "19.16",
+            :date => "2014-04-20",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1508,
+            :amount => "36.41",
+            :date => "2014-04-20",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1509,
+            :amount => "7.67",
+            :date => "2014-04-20",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1510,
+            :amount => "8",
+            :date => "2014-04-20",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1511,
+            :amount => "5",
+            :date => "2014-04-20",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1512,
+            :amount => "6.13",
+            :date => "2014-04-20",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1513,
+            :amount => "7.67",
+            :date => "2014-04-20",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1514,
+            :amount => "38.33",
+            :date => "2014-04-20",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1515,
+            :amount => "0",
+            :date => "2014-04-20",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1516,
+            :amount => "0",
+            :date => "2014-04-20",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1517,
+            :amount => "19.16",
+            :date => "2014-04-20",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1518,
+            :amount => "38.33",
+            :date => "2014-04-20",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1519,
+            :amount => "15",
+            :date => "2014-04-20",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1520,
+            :amount => "0",
+            :date => "2014-04-20",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1521,
+            :amount => "2.68",
+            :date => "2014-04-20",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1522,
+            :amount => "0",
+            :date => "2014-04-20",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1523,
+            :amount => "0",
+            :date => "2014-04-20",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1524,
+            :amount => "0",
+            :date => "2014-04-20",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1525,
+            :amount => "0",
+            :date => "2014-04-20",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1526,
+            :amount => "50.6",
+            :date => "2014-05-02",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1527,
+            :amount => "68.42",
+            :date => "2014-05-02",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1528,
+            :amount => "42.16",
+            :date => "2014-05-02",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1529,
+            :amount => "23.57",
+            :date => "2014-05-02",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1530,
+            :amount => "4.94",
+            :date => "2014-05-02",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1531,
+            :amount => "2.68",
+            :date => "2014-05-02",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1532,
+            :amount => "300",
+            :date => "2014-05-02",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1533,
+            :amount => "25",
+            :date => "2014-05-02",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1534,
+            :amount => "25",
+            :date => "2014-05-02",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1535,
+            :amount => "26.83",
+            :date => "2014-05-02",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1536,
+            :amount => "40",
+            :date => "2014-05-02",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1537,
+            :amount => "11.5",
+            :date => "2014-05-02",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1538,
+            :amount => "11.5",
+            :date => "2014-05-02",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1539,
+            :amount => "21.12",
+            :date => "2014-05-02",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1540,
+            :amount => "33.92",
+            :date => "2014-05-02",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1541,
+            :amount => "19.16",
+            :date => "2014-05-02",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1542,
+            :amount => "62.48",
+            :date => "2014-05-02",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1543,
+            :amount => "23",
+            :date => "2014-05-02",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1544,
+            :amount => "8",
+            :date => "2014-05-02",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1545,
+            :amount => "5",
+            :date => "2014-05-02",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1546,
+            :amount => "4.34",
+            :date => "2014-05-02",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1547,
+            :amount => "7.67",
+            :date => "2014-05-02",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1548,
+            :amount => "38.33",
+            :date => "2014-05-02",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1549,
+            :amount => "0",
+            :date => "2014-05-02",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1550,
+            :amount => "50",
+            :date => "2014-05-02",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1551,
+            :amount => "40.94",
+            :date => "2014-05-02",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1552,
+            :amount => "46",
+            :date => "2014-05-02",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1553,
+            :amount => "15",
+            :date => "2014-05-02",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1554,
+            :amount => "11.5",
+            :date => "2014-05-02",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1555,
+            :amount => "2.68",
+            :date => "2014-05-02",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1556,
+            :amount => "0",
+            :date => "2014-05-02",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1557,
+            :amount => "0",
+            :date => "2014-05-02",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1558,
+            :amount => "0",
+            :date => "2014-05-02",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1559,
+            :amount => "0",
+            :date => "2014-05-02",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1560,
+            :amount => "5",
+            :date => "2014-05-12",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1561,
+            :amount => "795.9",
+            :date => "2014-05-13",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1562,
+            :amount => "50.6",
+            :date => "2014-05-20",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1563,
+            :amount => "68.42",
+            :date => "2014-05-20",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1564,
+            :amount => "42.16",
+            :date => "2014-05-20",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1565,
+            :amount => "23.57",
+            :date => "2014-05-20",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1566,
+            :amount => "4.94",
+            :date => "2014-05-20",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1567,
+            :amount => "2.68",
+            :date => "2014-05-20",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1568,
+            :amount => "300",
+            :date => "2014-05-20",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1569,
+            :amount => "25",
+            :date => "2014-05-20",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1570,
+            :amount => "25",
+            :date => "2014-05-20",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1571,
+            :amount => "26.83",
+            :date => "2014-05-20",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1572,
+            :amount => "40",
+            :date => "2014-05-20",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1573,
+            :amount => "11.5",
+            :date => "2014-05-20",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1574,
+            :amount => "11.5",
+            :date => "2014-05-20",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1575,
+            :amount => "21.12",
+            :date => "2014-05-20",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1576,
+            :amount => "33.92",
+            :date => "2014-05-20",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1577,
+            :amount => "19.16",
+            :date => "2014-05-20",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1578,
+            :amount => "62.48",
+            :date => "2014-05-20",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1579,
+            :amount => "23",
+            :date => "2014-05-20",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1580,
+            :amount => "8",
+            :date => "2014-05-20",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1581,
+            :amount => "5",
+            :date => "2014-05-20",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1582,
+            :amount => "4.34",
+            :date => "2014-05-20",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1583,
+            :amount => "7.67",
+            :date => "2014-05-20",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1584,
+            :amount => "38.33",
+            :date => "2014-05-20",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1585,
+            :amount => "0",
+            :date => "2014-05-20",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1586,
+            :amount => "50",
+            :date => "2014-05-20",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1587,
+            :amount => "40.94",
+            :date => "2014-05-20",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1588,
+            :amount => "46",
+            :date => "2014-05-20",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1589,
+            :amount => "15",
+            :date => "2014-05-20",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1590,
+            :amount => "11.5",
+            :date => "2014-05-20",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1591,
+            :amount => "2.68",
+            :date => "2014-05-20",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1592,
+            :amount => "0",
+            :date => "2014-05-20",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1593,
+            :amount => "0",
+            :date => "2014-05-20",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1594,
+            :amount => "0",
+            :date => "2014-05-20",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1595,
+            :amount => "0",
+            :date => "2014-05-20",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1596,
+            :amount => "14",
+            :date => "2014-05-31",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1597,
+            :amount => "50.6",
+            :date => "2014-06-03",
+            :category_id => 2,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1598,
+            :amount => "68.42",
+            :date => "2014-06-03",
+            :category_id => 3,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1599,
+            :amount => "42.16",
+            :date => "2014-06-03",
+            :category_id => 4,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1600,
+            :amount => "23.57",
+            :date => "2014-06-03",
+            :category_id => 7,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1601,
+            :amount => "4.94",
+            :date => "2014-06-03",
+            :category_id => 8,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1602,
+            :amount => "2.68",
+            :date => "2014-06-03",
+            :category_id => 9,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1603,
+            :amount => "300",
+            :date => "2014-06-03",
+            :category_id => 10,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1604,
+            :amount => "25",
+            :date => "2014-06-03",
+            :category_id => 11,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1605,
+            :amount => "25",
+            :date => "2014-06-03",
+            :category_id => 12,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1606,
+            :amount => "26.83",
+            :date => "2014-06-03",
+            :category_id => 13,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1607,
+            :amount => "40",
+            :date => "2014-06-03",
+            :category_id => 15,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1608,
+            :amount => "11.5",
+            :date => "2014-06-03",
+            :category_id => 16,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1609,
+            :amount => "11.5",
+            :date => "2014-06-03",
+            :category_id => 17,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1610,
+            :amount => "21.12",
+            :date => "2014-06-03",
+            :category_id => 18,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1611,
+            :amount => "33.92",
+            :date => "2014-06-03",
+            :category_id => 19,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1612,
+            :amount => "19.16",
+            :date => "2014-06-03",
+            :category_id => 20,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1613,
+            :amount => "62.48",
+            :date => "2014-06-03",
+            :category_id => 21,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1614,
+            :amount => "23",
+            :date => "2014-06-03",
+            :category_id => 22,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1615,
+            :amount => "8",
+            :date => "2014-06-03",
+            :category_id => 23,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1616,
+            :amount => "5",
+            :date => "2014-06-03",
+            :category_id => 24,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1617,
+            :amount => "4.34",
+            :date => "2014-06-03",
+            :category_id => 25,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1618,
+            :amount => "7.67",
+            :date => "2014-06-03",
+            :category_id => 26,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1619,
+            :amount => "38.33",
+            :date => "2014-06-03",
+            :category_id => 27,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1620,
+            :amount => "0",
+            :date => "2014-06-03",
+            :category_id => 30,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1621,
+            :amount => "50",
+            :date => "2014-06-03",
+            :category_id => 31,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1622,
+            :amount => "40.94",
+            :date => "2014-06-03",
+            :category_id => 32,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1623,
+            :amount => "46",
+            :date => "2014-06-03",
+            :category_id => 33,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1624,
+            :amount => "15",
+            :date => "2014-06-03",
+            :category_id => 34,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1625,
+            :amount => "11.5",
+            :date => "2014-06-03",
+            :category_id => 35,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1626,
+            :amount => "2.68",
+            :date => "2014-06-03",
+            :category_id => 36,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1627,
+            :amount => "0",
+            :date => "2014-06-03",
+            :category_id => 37,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1628,
+            :amount => "0",
+            :date => "2014-06-03",
+            :category_id => 38,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1629,
+            :amount => "0",
+            :date => "2014-06-03",
+            :category_id => 39,
+            :account_id => 2,
+            :user_id => 1
+          )
+Allocation.create(
+            :id => 1630,
+            :amount => "0",
+            :date => "2014-06-03",
+            :category_id => 40,
+            :account_id => 2,
+            :user_id => 1
+          )

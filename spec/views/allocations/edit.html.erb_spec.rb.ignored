@@ -10,6 +10,7 @@ RSpec.describe "allocations/edit", :type => :view do
   end
 
   it "renders the edit allocation form" do
+    
     render
 
     assert_select "form[action=?][method=?]", allocation_path(@allocation), "post" do

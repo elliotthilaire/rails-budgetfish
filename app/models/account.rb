@@ -17,7 +17,7 @@ class Account < ActiveRecord::Base
 	end
 
 	def unallocated_balance
-        incomes.sum(:amount) - allocations.sum(:amount)
+        balance - allocated_balance
 	end
 
 end

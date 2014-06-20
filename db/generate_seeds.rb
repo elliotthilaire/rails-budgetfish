@@ -36,6 +36,19 @@ begin
               )"
   end  
 
+  rs = con.query("SELECT * FROM deposit")
+  rs.each_hash do |row|
+    puts "Allocation.create(
+            :id => #{row['id']},
+            :amount => \"#{row['amount']}\",
+            :date => \"#{row['date']}\",
+            :category_id => #{row['budgetaccount_id']},
+            :account_id => 2,
+            :user_id => 1
+          )"
+    # account_id => 2 should be our money.
+  end 
+
 rescue Mysql::Error => e
   puts e.errno
   puts e.error   

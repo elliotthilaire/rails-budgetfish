@@ -20,6 +20,10 @@ require 'rails_helper'
 
 RSpec.describe AllocationsController, :type => :controller do
 
+  before do
+    sign_in_as_a_valid_user
+  end
+
   # This should return the minimal set of attributes required to create a valid
   # Allocation. As you add validations to Allocation, be sure to
   # adjust the attributes here as well.
