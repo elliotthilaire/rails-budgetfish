@@ -7,4 +7,5 @@ class Allocation < ActiveRecord::Base
 
   belongs_to :account
   belongs_to :category
+  belongs_to :user
 end
