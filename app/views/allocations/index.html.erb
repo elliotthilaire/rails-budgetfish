@@ -14,7 +14,7 @@
   <tbody>
     <% @allocations.each do |allocation| %>
       <tr>
-        <td><%= allocation.amount %></td>
+        <td><%= number_to_currency(allocation.amount) %></td>
         <td><%= allocation.date %></td>
         <td><%= allocation.category.name %></td>
         <td><%= allocation.account.name %></td>
