@@ -29,7 +29,7 @@ Password is: password
 
 Launch the server 
 
-   rails server
+    rails server
 
 ## Testing
 
