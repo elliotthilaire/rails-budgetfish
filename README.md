@@ -3,7 +3,7 @@
 Budgetfish is an application to keep track of expenses.
 It is a web application intended to be accessed via mobile devices.
 
-It is currently in development and is missing features and has bugs.
+It is currently under heavy development and is missing features and has bugs.
 
 ## Requirements
 
