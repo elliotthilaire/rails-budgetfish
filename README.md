@@ -1,4 +1,4 @@
-== README
+# README
 
 Budgetfish is an application to keep track of expenses.
 It is a web application intended to be accessed via mobile devices.
@@ -33,7 +33,7 @@ Launch the server
 
 ## Testing
 
-Run test suite during development using guard
+Run test suite while developing using using Guard
 
     guard
 
@@ -45,3 +45,4 @@ Feel free to fork and make pull requests.
 
 ## License
 
+See LICENSE.md
