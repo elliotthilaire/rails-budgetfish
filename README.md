@@ -7,8 +7,7 @@ It is currently under heavy development and is missing features and has bugs.
 
 ## Requirements
 
-ruby 2.1.1
-gems and bundler
+Ruby 2.1.1, gems and bundler
 
 ## Set up
 
